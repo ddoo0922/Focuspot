@@ -1,0 +1,15 @@
+# Python 3.13 (experiment PC: Python 3.13.12, torch 2.6.0+cu124, 2x RTX 4090)
+# For GPU, install torch first: pip install torch==2.6.0 --index-url https://download.pytorch.org/whl/cu124
+# Verified: with these versions, 22_repro_check recomputed from raw data gives the same Stellantis N.V. result (17/51, CPU)
+torch==2.6.0
+numpy==2.4.6
+pandas==3.0.6
+scipy==1.17.1
+scikit-learn==1.9.1
+matplotlib==3.11.2
+openpyxl==3.1.5
+catboost==1.2.10
+tabicl==2.2.0
+jupytext==1.19.5
+nbconvert==7.17.1
+ipykernel==7.4.0
