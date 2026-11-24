@@ -1,0 +1,83 @@
+{
+  "spot_only_auc_all": 0.790495319058073,
+  "spot_only_auc_ex8473": 0.6986300025515711,
+  "logit_summary_raw_auc": 0.8238057425782215,
+  "logit_summary_raw_auc_ex": 0.7996427800349369,
+  "logit_summary_spotz_auc": 0.6107111161527528,
+  "logit_summary_spotz_auc_ex": 0.6924669767807022,
+  "pca_var10": [
+    0.578,
+    0.227,
+    0.098,
+    0.031,
+    0.016,
+    0.01,
+    0.007,
+    0.006,
+    0.005,
+    0.003
+  ],
+  "knn_same_spot_share": 0.467914979757085,
+  "knn_bad_neighbor_bad_share": 0.28860759493670884,
+  "year_means": [
+    {
+      "year": 2022,
+      "D": 623.074,
+      "energy_norm": 0.297,
+      "I_mean": 0.684,
+      "V_mean": 0.433,
+      "R_mean": 0.639,
+      "F_zero": 1.0
+    },
+    {
+      "year": 2023,
+      "D": 469.508,
+      "energy_norm": 0.274,
+      "I_mean": 0.65,
+      "V_mean": 0.42,
+      "R_mean": 0.644,
+      "F_zero": 0.165
+    },
+    {
+      "year": 2024,
+      "D": 466.408,
+      "energy_norm": 0.273,
+      "I_mean": 0.652,
+      "V_mean": 0.418,
+      "R_mean": 0.638,
+      "F_zero": 0.019
+    }
+  ],
+  "year_within_spot_dev": [
+    {
+      "year": 2022,
+      "I_mean_dz": 0.0188,
+      "V_mean_dz": -0.0032,
+      "R_mean_dz": -0.0193,
+      "energy_norm_dz": 0.006
+    },
+    {
+      "year": 2023,
+      "I_mean_dz": -0.0031,
+      "V_mean_dz": 0.0013,
+      "R_mean_dz": 0.0046,
+      "energy_norm_dz": -0.0004
+    },
+    {
+      "year": 2024,
+      "I_mean_dz": -0.0001,
+      "V_mean_dz": -0.0005,
+      "R_mean_dz": -0.0009,
+      "energy_norm_dz": -0.0005
+    }
+  ],
+  "force_zero_by_year": {
+    "2022": 1.0,
+    "2023": 0.16494845360824742,
+    "2024": 0.018796992481203006
+  },
+  "force_zero_bad_rate": {
+    "zero": 0.028169014084507043,
+    "nonzero": 0.04196217494089834
+  }
+}

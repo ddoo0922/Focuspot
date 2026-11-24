@@ -1,0 +1,18 @@
+{
+  "Imean": {
+    "auc_raw": 0.5892414037575329,
+    "auc_within_cell": 0.47119815668202764
+  },
+  "Ipeak_pos": {
+    "auc_raw": 0.2811503013115916,
+    "auc_within_cell": 0.30494505494505497
+  },
+  "Ilast_over_mean": {
+    "auc_raw": 0.32337823466855725,
+    "auc_within_cell": 0.3303792981212336
+  },
+  "Idrop": {
+    "auc_raw": 0.3014888337468983,
+    "auc_within_cell": 0.3857674583481035
+  }
+}
